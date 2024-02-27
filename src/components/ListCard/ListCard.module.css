@@ -1,0 +1,43 @@
+.listcard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: auto; */
+    gap: 2rem;
+
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+
+.listcard_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 3rem; */
+}
+
+.listcard_img img{
+    width: 100%;
+}
+.readmore{
+    border-radius: 0;
+    background-color: white;
+    padding: 0.5rem 1rem;
+}
+.text{
+    margin-bottom: 0.5rem ;
+}
+
+@media (max-width: 600px){
+    .listcard{
+        padding: 1rem;
+        gap: 1rem;
+    }
+}

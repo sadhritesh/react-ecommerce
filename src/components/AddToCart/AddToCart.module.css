@@ -1,0 +1,27 @@
+.colors{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.clr{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.active{
+    opacity: 1;
+}
+.active_ring{
+    border: 3px solid rgb(98 84 243);
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0 0.3rem;
+}
+
+.ring{
+    margin: 0 0.3rem;
+}
+.addtocart Button{
+    margin-top: 1rem;
+}

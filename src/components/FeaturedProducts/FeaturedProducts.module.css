@@ -1,0 +1,28 @@
+.featured_container{
+    width: 100%;
+    border-radius: 1rem;
+    background: #ebf4fc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cliploader{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+
+@media (max-width: 700px){
+    .card_container{
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
+}

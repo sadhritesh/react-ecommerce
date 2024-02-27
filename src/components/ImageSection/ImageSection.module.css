@@ -1,0 +1,36 @@
+.img_container{
+    display: grid;
+    grid-template-columns: 25% 73%;
+    padding: 1rem 0;
+    gap: 0.5rem;
+}
+.images_cont_left{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.5rem;
+}
+.product_imgs{
+    width: 100%;
+}
+.main_img{
+    width: 100%;
+}
+.images_cont_right{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .img_container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 73% ;
+        gap: 1rem;
+    }
+    .images_cont_left{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 0.5rem;
+    }
+}

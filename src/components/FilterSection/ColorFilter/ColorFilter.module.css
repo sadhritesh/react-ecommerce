@@ -1,0 +1,33 @@
+.colorfilter h3{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.colors{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.clr{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.active{
+    opacity: 1;
+}
+.active_ring{
+    border: 3px solid rgb(98 84 243);
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem;
+}
+
+.ring{
+    margin: 0 0.3rem;
+}

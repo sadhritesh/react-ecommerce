@@ -1,0 +1,25 @@
+.categories h3{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.categories .category_list{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: rgb(98 84 243);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px 
+}
+
+@media (max-width: 650px) {
+    .categories h3{
+        font-size: 2rem;
+    }
+    .categories .category_list{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,16 @@
+.companyfilter h3{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.select{
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 650px) {
+    .companyfilter h3{
+        font-size: 2rem;
+    }
+}

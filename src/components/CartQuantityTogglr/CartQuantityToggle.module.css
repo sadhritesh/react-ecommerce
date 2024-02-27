@@ -1,0 +1,7 @@
+.cart_quantity_toggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5rem;
+    font-size: 1rem;
+}
